@@ -19,6 +19,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | Day | Date | Topic |
 |-----|------|-------|
 | 1 | 2026-10-22 | Two Sum (Python) — brute force vs hash map, O(n²) → O(n) |
+| 2 | 2026-10-27 | Valid Anagram (Python) — hash map character counts, O(n) |
 
 ## Why keep a daily log?
 
