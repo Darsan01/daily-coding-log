@@ -1,0 +1,8 @@
+{
+  "day": 9,
+  "date": "2026-11-02",
+  "topic": "Array map / filter / reduce (JavaScript)",
+  "code_files": [
+    "array_methods.js"
+  ]
+}

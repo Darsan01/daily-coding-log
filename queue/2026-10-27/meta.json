@@ -1,0 +1,8 @@
+{
+  "day": 3,
+  "date": "2026-10-27",
+  "topic": "Maximum Subarray (Kadane's algorithm) (Python)",
+  "code_files": [
+    "max_subarray.py"
+  ]
+}
