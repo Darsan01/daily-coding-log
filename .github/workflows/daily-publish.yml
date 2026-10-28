@@ -1,0 +1,65 @@
+name: Publish next daily entry
+
+# Auto-publisher for the daily coding log.
+# Entries are prepared in advance on the `queue` branch, one folder per day:
+#   queue/YYYY-MM-DD/meta.json   (day, date, topic, code files)
+#   queue/YYYY-MM-DD/entry.md    (the dated log file)
+#   queue/YYYY-MM-DD/<code file> (tested code)
+# This workflow runs daily, publishes the earliest entry whose date has
+# arrived (at most ONE entry per run), updates the README log table, and
+# removes the published entry from the queue branch. No empty commits:
+# if nothing is due, it exits without committing.
+#
+# Why this exists: Muse's GitHub pushes need Darsan to approve each one,
+# so the log stalls when he is offline. GitHub Actions runs on GitHub's
+# own servers, so it keeps publishing the pre-approved, real entries
+# while he is away. The Muse scheduled job stays as a backup: it runs
+# later in the day and skips if today's entry is already live.
+
+on:
+  schedule:
+    # 08:38 UTC daily (08:38 London in winter, 09:38 in summer).
+    # Runs before the Muse backup job (~09:38 Europe/London).
+    - cron: "38 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fetch the queue branch
+        run: git fetch origin queue
+
+      - name: Publish the next due entry
+        id: publish
+        run: python3 .github/scripts/publish_next.py
+
+      - name: Commit and push to main
+        if: steps.publish.outputs.published_date != '' && steps.publish.outputs.already_on_main != 'true'
+        run: |
+          git config user.name "Darsan Khanal"
+          git config user.email "163989122+Darsan01@users.noreply.github.com"
+          git add .
+          git commit -m "Day ${{ steps.publish.outputs.day }}: ${{ steps.publish.outputs.topic }}"
+          git push origin main
+
+      - name: Remove the published entry from the queue branch
+        if: steps.publish.outputs.published_date != ''
+        run: |
+          git config user.name "Darsan Khanal"
+          git config user.email "163989122+Darsan01@users.noreply.github.com"
+          git checkout queue
+          git rm -r --ignore-unmatch "queue/${{ steps.publish.outputs.published_date }}" || true
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish Day ${{ steps.publish.outputs.day }} (${{ steps.publish.outputs.published_date }})"
+            git push origin queue
+          fi
+          git checkout main
