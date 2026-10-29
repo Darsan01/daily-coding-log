@@ -22,6 +22,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 2 | 2026-10-26 | Valid Anagram (Python) — hash map character counts, O(n) |
 | 3 | 2026-10-27 | Maximum Subarray (Kadane's algorithm) (Python) |
 | 4 | 2026-10-28 | Valid Palindrome — Two Pointers (Python) |
+| 5 | 2026-10-29 | Binary Search (Python) |
 
 ## Why keep a daily log?
 
