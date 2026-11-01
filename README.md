@@ -24,6 +24,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 4 | 2026-10-28 | Valid Palindrome — Two Pointers (Python) |
 | 5 | 2026-10-29 | Binary Search (Python) |
 | 6 | 2026-10-30 | Reverse a Linked List (Python) |
+| 7 | 2026-10-31 | Valid Parentheses — Stack (Python) |
 
 ## Why keep a daily log?
 
