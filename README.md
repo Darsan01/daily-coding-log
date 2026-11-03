@@ -26,6 +26,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 6 | 2026-10-30 | Reverse a Linked List (Python) |
 | 7 | 2026-10-31 | Valid Parentheses — Stack (Python) |
 | 8 | 2026-11-01 | FizzBuzz (JavaScript) |
+| 9 | 2026-11-02 | Array map / filter / reduce (JavaScript) |
 
 ## Why keep a daily log?
 
