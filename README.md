@@ -28,6 +28,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 8 | 2026-11-01 | FizzBuzz (JavaScript) |
 | 9 | 2026-11-02 | Array map / filter / reduce (JavaScript) |
 | 10 | 2026-11-03 | Fetch API — fetch and render JSON (JavaScript) |
+| 11 | 2026-11-04 | SQL practice — SELECT / JOIN (SQL) |
 
 ## Why keep a daily log?
 
