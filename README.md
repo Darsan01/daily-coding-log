@@ -30,6 +30,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 10 | 2026-11-03 | Fetch API — fetch and render JSON (JavaScript) |
 | 11 | 2026-11-04 | SQL practice — SELECT / JOIN (SQL) |
 | 12 | 2026-11-05 | PHP — form handling with validation (PHP) |
+| 13 | 2026-11-06 | React — useState counter + useEffect data fetch (JSX) |
 
 ## Why keep a daily log?
 
