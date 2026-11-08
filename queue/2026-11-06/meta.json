@@ -1,8 +1,0 @@
-{
-  "day": 13,
-  "date": "2026-11-06",
-  "topic": "React \u2014 useState counter + useEffect data fetch (JSX)",
-  "code_files": [
-    "Counter.jsx"
-  ]
-}
