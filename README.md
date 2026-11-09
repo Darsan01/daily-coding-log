@@ -31,6 +31,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 11 | 2026-11-04 | SQL practice — SELECT / JOIN (SQL) |
 | 12 | 2026-11-05 | PHP — form handling with validation (PHP) |
 | 13 | 2026-11-06 | React — useState counter + useEffect data fetch (JSX) |
+| 14 | 2026-11-07 | Merge Two Sorted Lists (Python) |
 
 ## Why keep a daily log?
 
