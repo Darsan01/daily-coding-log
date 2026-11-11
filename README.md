@@ -33,6 +33,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 13 | 2026-11-06 | React — useState counter + useEffect data fetch (JSX) |
 | 14 | 2026-11-07 | Merge Two Sorted Lists (Python) |
 | 15 | 2026-11-08 | Climbing Stairs — Dynamic Programming (Python) |
+| 16 | 2026-11-09 | Best Time to Buy and Sell Stock (Python) |
 
 ## Why keep a daily log?
 
