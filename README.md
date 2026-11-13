@@ -34,6 +34,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 14 | 2026-11-07 | Merge Two Sorted Lists (Python) |
 | 15 | 2026-11-08 | Climbing Stairs — Dynamic Programming (Python) |
 | 16 | 2026-11-09 | Best Time to Buy and Sell Stock (Python) |
+| 17 | 2026-11-10 | Longest Substring Without Repeating Characters (Python) |
 
 ## Why keep a daily log?
 
