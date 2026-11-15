@@ -36,6 +36,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 16 | 2026-11-09 | Best Time to Buy and Sell Stock (Python) |
 | 17 | 2026-11-10 | Longest Substring Without Repeating Characters (Python) |
 | 18 | 2026-11-11 | Group Anagrams (Python) |
+| 19 | 2026-11-12 | Debounce in JavaScript |
 
 ## Why keep a daily log?
 
