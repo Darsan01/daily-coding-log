@@ -38,6 +38,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 18 | 2026-11-11 | Group Anagrams (Python) |
 | 19 | 2026-11-12 | Debounce in JavaScript |
 | 20 | 2026-11-13 | Throttle in JavaScript |
+| 21 | 2026-11-14 | Top K Frequent Elements (Python) |
 
 ## Why keep a daily log?
 
