@@ -39,6 +39,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 19 | 2026-11-12 | Debounce in JavaScript |
 | 20 | 2026-11-13 | Throttle in JavaScript |
 | 21 | 2026-11-14 | Top K Frequent Elements (Python) |
+| 22 | 2026-11-15 | Product of Array Except Self (Python) |
 
 ## Why keep a daily log?
 
