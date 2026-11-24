@@ -42,6 +42,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 22 | 2026-11-15 | Product of Array Except Self (Python) |
 | 23 | 2026-11-22 | Container With Most Water (Python) |
 | 24 | 2026-11-23 | Invert Binary Tree (Python) |
+| 25 | 2026-11-24 | Merge Intervals (Python) |
 
 ## Why keep a daily log?
 
