@@ -43,6 +43,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 23 | 2026-11-22 | Container With Most Water (Python) |
 | 24 | 2026-11-23 | Invert Binary Tree (Python) |
 | 25 | 2026-11-24 | Merge Intervals (Python) |
+| 26 | 2026-11-25 | Maximum Depth of Binary Tree (Python) |
 
 ## Why keep a daily log?
 
