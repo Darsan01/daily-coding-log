@@ -45,6 +45,7 @@ No empty commits. If there's a commit here, there's real code or a real note beh
 | 25 | 2026-11-24 | Merge Intervals (Python) |
 | 26 | 2026-11-25 | Maximum Depth of Binary Tree (Python) |
 | 27 | 2026-11-26 | Valid Sudoku (Python) |
+| 28 | 2026-11-27 | 3Sum (Python) |
 
 ## Why keep a daily log?
 
